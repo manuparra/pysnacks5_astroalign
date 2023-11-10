@@ -1,0 +1,14 @@
+name: astroalign
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - astroalign=2.4.1
+  - astropy=5.3.4
+  - ca-certificates=2023.7.22
+  - certifi=2023.7.22
+  - jupyterlab=4.0.8
+  - matplotlib=3.8.1
+  - numpy=1.26.0
+  - openssl=3.1.4
+  - pandas=2.1.2
