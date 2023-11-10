@@ -11,8 +11,55 @@ ASTROALIGN is a python module that can serve to align two astronomical images. I
 This course will be taught by Rainer Schödel. 
 
 ## Workshop materials
+There are mainly three tutorials:
 
-TBC
+- [tutorials/Astroalign_Example.ipynb](tutorials/Astroalign_Example.ipynb)
+- [tutorials/Example_GNS/AA_with_lists.ipynb](tutorials/Example_GNS/AA_with_lists.ipynb)
+- [tutorials/Example_JPEG/AA_with_jpg.ipynb](tutorials/Example_JPEG/AA_with_jpg.ipynb)
+
+The file structure is:
+```
+├── environment.yml
+├── LICENSE
+├── README.md
+└── tutorials
+    ├── Astroalign_Example.ipynb
+    ├── Example_GNS
+    │   ├── AA_with_lists.ipynb
+    │   ├── HAWKI_H_lnx_jitter_3.fits.gz
+    │   ├── HAWKI_H_stars_3.txt
+    │   ├── VVV_J_Field5.fits.gz
+    │   └── VVV_J_Field5_stars.txt
+    └── Example_JPEG
+        ├── AA_with_jpg.ipynb
+        ├── detail.jpg
+        ├── eso1547a.jpg
+        └── orig.jpg
+```
+
+# Installation instructions
+You can manage the instalation with `conda` following these steps:
+
+1. Make sure you have conda/mamba installed. You can follow the instructions in [Installing miniconda](https://droplets-spsrc.readthedocs.io/conda/#installing-miniconda).
+
+2. In a terminal, go to your working directory and clone this repository:
+
+```
+git clone https://github.com/iaa-so-training/pysnacks5_astroalign.git
+cd pysnacks5_astroalign
+```
+
+3. Install the dependencies for the tutorials (replace `mamba` with `conda` if you don't have mamba installed):
+```
+mamba env create -f environment.yml
+conda activate astroalign
+```
+
+Now you can open Jupyter Lab and explore the tutorial notebooks
+
+```
+jupyter lab
+```
 
 ## Additional information
  - ASTROALIGN paper: https://arxiv.org/abs/1909.02946
