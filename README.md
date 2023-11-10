@@ -1,7 +1,10 @@
 # PySnacks 5<br> ASTROALIGN: A python pipeline to explore space-based observations in the search for planets
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/iaa-so-training/pysnacks5_astroalign/HEAD)
 
+
 This repository is for the workshop materials. For details on the event visit the [PySnacks 5: ASTROALIGN](https://indico.iaa.csic.es/event/8/) event webpage.
+![image](https://github.com/iaa-so-training/pysnacks5_astroalign/assets/1053066/da43ad82-77aa-4c8a-9363-40b4a0d43214)
+
 ## PySnacks
 Within the  Severo Ochoa Training Initiative of the IAA-CSIC we are offering short introductory practical courses about Python packages for astrophysical applications (PySnacks). We invite you to participate in the 1h course PySnacks 5: ASTROALIGN.
 
