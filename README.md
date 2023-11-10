@@ -1,4 +1,5 @@
 # PySnacks 5<br> ASTROALIGN: A python pipeline to explore space-based observations in the search for planets
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/iaa-so-training/pysnacks5_astroalign/HEAD)
 
 This repository is for the workshop materials. For details on the event visit the [PySnacks 5: ASTROALIGN](https://indico.iaa.csic.es/event/8/) event webpage.
 ## PySnacks
@@ -60,6 +61,8 @@ Now you can open Jupyter Lab and explore the tutorial notebooks
 ```
 jupyter lab
 ```
+
+You can also launch the tutorials without installation in the free myBinder service by clicking here: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/iaa-so-training/pysnacks5_astroalign/HEAD)
 
 ## Additional information
  - ASTROALIGN paper: https://arxiv.org/abs/1909.02946
