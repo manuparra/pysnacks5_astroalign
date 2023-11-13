@@ -53,19 +53,24 @@ git clone https://github.com/iaa-so-training/pysnacks5_astroalign.git
 cd pysnacks5_astroalign
 ```
 
+
 3. Install the dependencies for the tutorials (replace `mamba` with `conda` if you don't have mamba installed):
 ```
 mamba env create -f environment.yml
+```
+
+4. Execute the tutorials
+
+You need to activate the conda environment and initialize a Jupyter Lab session:
+
+```
 conda activate astroalign
-```
-
-Now you can open Jupyter Lab and explore the tutorial notebooks
-
-```
 jupyter lab
 ```
 
-You can also launch the tutorials without installation in the free myBinder service by clicking here: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/iaa-so-training/pysnacks5_astroalign/HEAD)
+Once everything is installed, you just need to run step 4 to run the tutorials.
+
+You can also launch the tutorials without installation in the free myBinder service by clicking here: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/iaa-so-training/pysnacks5_astroalign/HEAD). Note that this is a free service with limited resources, useful to execute and modify the tutorials live, but computationally expensive steps may not be possible.
 
 ## Additional information
  - ASTROALIGN paper: https://arxiv.org/abs/1909.02946
