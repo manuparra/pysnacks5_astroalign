@@ -3,6 +3,7 @@
 
 
 This repository is for the workshop materials. For details on the event visit the [PySnacks 5: ASTROALIGN](https://indico.iaa.csic.es/event/8/) event webpage.
+
 ![image](https://github.com/iaa-so-training/pysnacks5_astroalign/assets/1053066/da43ad82-77aa-4c8a-9363-40b4a0d43214)
 
 ## PySnacks
